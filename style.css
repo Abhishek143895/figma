@@ -1,0 +1,75 @@
+.outer{
+    background: url(./assets/Background.jpg);
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-position: initial;
+    box-sizing: border-box;
+    z-index: -1;
+}
+
+.navbar-nav li i {
+    font-size: 1.5rem;
+    margin-top: 8px;
+    margin-left: 17px;
+}
+
+.navbar .navbar-nav li {
+    padding: 0 18px;
+}
+
+
+.navbar .container a{
+    font-weight: bold;
+    font-size:20px;
+}
+
+.navbar .container a span{
+    color: skyblue;
+    font-weight: bold;
+    font: 30px;
+}
+
+.navbar .container > i {
+    font-size: 45px;
+    color: white;
+    margin-right: 24px;
+}
+
+
+.para1{
+    letter-spacing: 2px;
+    font-size: 1rem;
+}
+
+.first-col{
+    text-align:left;
+}
+
+.first-col h3{
+    font-size: 16px;
+    font-weight: bold;
+}
+.first-col p {
+    font-size: 12px;
+    font-family: sans-serif;
+}
+.box-hov{
+    padding: 20px 25px;
+}
+.box-hov:hover{
+    color: white;
+    background-color: rgb(51, 51, 210);
+}
+
+.col-lg-2{
+    padding: 1px;
+}
+@media (max-width:768px){
+    .navbar .container > i {
+        font-size: 2rem;
+    }
+    .box-hov{
+        padding: 10px 15px;
+    }
+}
